@@ -312,3 +312,140 @@ main section > h2{
 #buy iframe{
   width: 996px;height: 560px;
 }
+
+/* 고객지원 */
+#cs{
+  margin-bottom: none;
+
+}
+#cs{
+  background: #ececec;
+  width: 100%;
+  margin:150px auto 0 auto;
+  padding:60px;
+}
+#cs > h2{margin-bottom: 40px;}
+#cs article{
+  width: 1200px;
+  margin: 0 auto 30px auto;
+  background: var(--bg-color01);
+}
+#cs article h3{
+  font-size: var(--t-size18);
+  text-align: center;
+  padding: 60px 0 20px 0;
+  font-weight: 500;
+}
+#cs article div{
+  width: 50%;
+  float: left;
+  display: flex; /*.ars_left, .ars_right 안에 있는 컨텐츠 가로배치*/
+  justify-content: center;
+  padding: 0px 0px 60px 0;
+}
+.cs_p{
+  width: 200px;
+  text-align: center;
+}
+.cs_p strong{
+  font-weight: 500;
+  font-size: var(--t-size16);
+}
+.cs_p a{
+  color: var(--t-color03);
+  line-height: 30px;
+}
+.cs_p a::after{
+  content: ' >';
+  color: var(--t-color03);
+}
+.car, .member{
+  width: 60px;height: 46px;
+  display: inline-block;
+  background-image: url(../images/ico-main-guide.72b7c3f.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+.car{
+  background-position: -175px 3px;
+  transform: translateY(27px);
+}
+.member{
+  width: 64px;
+  background-position: -236px 7px;
+}
+#cs dl{
+  padding-left: 20px;
+  line-height: 22px;
+}
+#cs dt{font-weight: bold;}
+#cs dd{
+  color: #6d6d6d;
+}
+
+#cs .qna{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: var(--t-size14);
+  margin-bottom: 30px;
+}
+#cs .qna li{
+  position: relative;
+  width: 220px;height: 230px;
+  padding: 30px;
+  background: var(--bg-color01);
+}
+#cs .qna li h4{
+  font-size: var(--t-size18);
+}
+#cs .qna li p{
+  margin: 20px 0 10px 0;
+  line-height: 22px;
+}
+#cs .qna li span{
+  color: #6d6d6d;
+}
+#cs .qna-link{
+  display: inline-block;
+  color: #6b9ddf;
+  font-size: var(--t-size14);
+  line-height: 20px;
+}
+#cs .qna-link::after{
+  content: ' >';
+}
+.qna-btn{
+  position: absolute;
+  bottom: 20px;left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 150px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--t-color02);
+  font-weight: normal;
+  font-size: var(--t-size14);
+  background: var(--bg-color02);
+}
+.app-cont{
+  text-align: center;
+}
+.app-cont a{margin-right: 10px;}
+
+.app-cont img{
+  display: block;
+  margin: 25px auto;
+}
+#random{
+  width: 1200px;
+  margin: 20px auto;
+}
+
+
+
+
+

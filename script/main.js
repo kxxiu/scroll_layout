@@ -65,4 +65,10 @@ $(document).ready(function(){
     Timer = setInterval(moveLeft, 3000);
   });
 
+  //고객지원 랜덤이미지
+   let imgR = ['event_banner1', 'event_banner2', 'event_banner3', 'event_banner4'];
+   let ran = Math.ceil(Math.random()*4-1);
+
+   document.getElementById('random').innerHTML=`<a href="#"><img src="./images/${imgR[ran]}.jpg" alt=""></a>`
+
 });
